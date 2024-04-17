@@ -44,9 +44,7 @@ text-align: center;
   background-color: blue;
   width: 800px;
   height: 800px;
-  direction: flex;
-  justify-content: center;
-  text-align: center;
+ text-align: center;
   font-size:200px;
 }
 
@@ -54,4 +52,6 @@ text-align: center;
   background-color: greenyellow;
   width: 800px;
   height: 800px;
+  font-size: 200px;
+  text-align: center;
 }

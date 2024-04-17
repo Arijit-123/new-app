@@ -13,24 +13,26 @@ function Task1() {
   return (
     <>
     <div className='header'>
+    <h1>Task1</h1>
+    <p>Here I have made React application where I have written a multiline jsx program for a photo album here I am updating the state with the photo the user has clicked.</p>
     <p>Image Gallery</p>
     </div>
-    <div style={{textAlign:'center'}}>
+    <div style={{textAlign:'center', margin:'20px'}}>
     <p>Click on an image</p>
     </div>
     <div className='div__arrangement'>
     
     <div>
-      <img className='img__display' src='https://t.ly/JoO4-'  onClick={()=>setPhoto('https://t.ly/JoO4-')}></img>
+      <img className='img__display' src='./cat1.jpg'  onClick={()=>setPhoto('./cat1.jpg')}></img>
       </div>
       <div >
-        <img className='img__display' src='https://t.ly/P0Ke4' onClick={()=>setPhoto('https://t.ly/P0Ke4')}></img>
+        <img className='img__display' src='./cat2.jpg' onClick={()=>setPhoto('./cat2.jpg')}></img>
       </div>
     <div >
-        <img  className='img__display'src='https://shorturl.at/hHT37' onClick={()=>setPhoto('https://shorturl.at/hHT37')}></img>
+        <img  className='img__display'src='./dog1.jpg' onClick={()=>setPhoto('dog1.jpg')}></img>
     </div>
     <div >
-        <img  className='img__display' src='https://t.ly/OwMOQ' onClick={()=>setPhoto('https://t.ly/OwMOQ')}></img>
+        <img  className='img__display' src='./download.jpg' onClick={()=>setPhoto('./download.jpg')}></img>
     </div>
 
     </div>
