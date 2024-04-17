@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 
-function Photogallery() {
+function Task1() {
     const [photo,setPhoto]=useState('');
 
     useEffect(()=>{
@@ -44,4 +44,4 @@ function Photogallery() {
   )
 }
 
-export default Photogallery
+export default Task1;

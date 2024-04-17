@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Photogallery from './Photogallery';
+
+import Task1 from './Task1';
+import Task2 from './Task2';
 
 function App() {
   return (
     <div className="App">
-     <Photogallery/>
+    <Task1/>
+    <Task2/>
     </div>
   );
 }

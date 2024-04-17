@@ -40,3 +40,18 @@ text-align: center;
   width: 100vw;
   height:10vw
 }
+.task2div{
+  background-color: blue;
+  width: 800px;
+  height: 800px;
+  direction: flex;
+  justify-content: center;
+  text-align: center;
+  font-size:200px;
+}
+
+.newdiv{
+  background-color: greenyellow;
+  width: 800px;
+  height: 800px;
+}
