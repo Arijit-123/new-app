@@ -24,7 +24,7 @@ function Photogallery() {
       <img className='img__display' src='https://t.ly/JoO4-'  onClick={()=>setPhoto('https://t.ly/JoO4-')}></img>
       </div>
       <div >
-        <img className='img__display' src='./browncat.webp' onClick={()=>setPhoto('./browncat.webp')}></img>
+        <img className='img__display' src='https://t.ly/P0Ke4' onClick={()=>setPhoto('https://t.ly/P0Ke4')}></img>
       </div>
     <div >
         <img  className='img__display'src='https://shorturl.at/hHT37' onClick={()=>setPhoto('https://shorturl.at/hHT37')}></img>
@@ -38,7 +38,7 @@ function Photogallery() {
 
     </div>
     <div className='img_photo_res'>
-        <img src={photo}></img>
+        <img className='img__display' src={photo}></img>
     </div>
     </>
   )
